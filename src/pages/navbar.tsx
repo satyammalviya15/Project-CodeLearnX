@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "../components/ui/button";
-import logo from "../../public/CLinvert.png";
+import logo from "../../public/CLInvert.png"; // Adjust the path to your logo image
 import { SearchButton } from "../components/SearchButton";
 import { NewNavigationMenu } from "../components/NewNavigationMenu";
 
