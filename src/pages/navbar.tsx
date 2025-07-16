@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "../components/ui/button";
-import logo from "../../public/CLInvert.png"; // Adjust the path to your logo image
 import { SearchButton } from "../components/SearchButton";
 import { NewNavigationMenu } from "../components/NewNavigationMenu";
 
@@ -11,7 +10,7 @@ export default function Navbar() {
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src={logo} alt="logo" height={30} width={30} />
+          <img src="public/CLinvert.png" alt="logo" height={30} width={30} />
           <span className="text-xl font-bold">CodeLearn</span>
         </div>
 
