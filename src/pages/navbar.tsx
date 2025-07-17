@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src="public/CLinvert.png" alt="logo" height={30} width={30} />
+          <img src="/CLinvert.png" alt="logo" height={30} width={30} />
           <span className="text-xl font-bold">CodeLearn</span>
         </div>
 

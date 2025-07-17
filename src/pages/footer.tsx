@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <img src="public/CLinvert.png" className="h-6 w-6 text-primary" />
+              <img src="/CLinvert.png" className="h-6 w-6 text-primary" />
               <span className="text-xl font-bold">CodeLearn</span>
             </div>
             <p className="text-sm text-muted-foreground">
