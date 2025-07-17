@@ -1,6 +1,12 @@
 import { Button } from "../components/ui/button";
-import { Sparkles} from "lucide-react";
+import { Sparkles } from "lucide-react";
 import AnimatedTooltip from "../components/shared/AnimatedTooltip";
+
+import pythonImg from "../assets/python.png";
+import jsImg from "../assets/javascript.png";
+import reactImg from "../assets/react.png";
+import nodeImg from "../assets/nodejs.png";
+import mysqlImg from "../assets/mysql.png";
 
 export default function Hero() {
   return (
@@ -9,7 +15,7 @@ export default function Hero() {
         <div className="flex flex-col items-center text-center space-y-8 max-w-3xl mx-auto">
           <div className="inline-flex items-center rounded-full px-3 py-1 text-sm bg-primary/10 text-primary">
             <Sparkles className="mr-1 h-3.5 w-3.5" />
-            <span>CodeLearn- a Learning Platforn</span>
+            <span>CodeLearn - a Learning Platform</span>
           </div>
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
             Learn New Skills. Build Your Future.
@@ -37,35 +43,36 @@ export default function Hero() {
   );
 }
 
+// ✅ Use imported images
 const people = [
   {
     id: 1,
     name: "Python",
     designation: "www.python.com",
-    image: "../assets/python.png",
+    image: pythonImg,
   },
   {
     id: 2,
     name: "JavaScript",
     designation: "www.javascript.com",
-    image: "../assets/javascript.png",
+    image: jsImg,
   },
   {
     id: 3,
     name: "React",
     designation: "www.reactjs.org",
-    image: "../assets/react.png",
+    image: reactImg,
   },
   {
     id: 4,
     name: "Node.js",
     designation: "www.nodejs.org",
-    image: "../assets/nodejs.png",
+    image: nodeImg,
   },
   {
     id: 5,
     name: "MySQL",
     designation: "www.mysql.com",
-    image: "../assets/mysql.png",
+    image: mysqlImg,
   },
 ];
