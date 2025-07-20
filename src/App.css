@@ -1,6 +1,5 @@
 #root {
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -38,4 +37,24 @@
 
 .read-the-docs {
   color: #888;
+}
+/* Show a white scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Light gray thumb so it's visible on white background */
+  border-radius: 5px;
+  border: 2px solid white; /* Optional border for white padding around thumb */
+}
+
+/* Optional: Firefox support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ccc white;
 }

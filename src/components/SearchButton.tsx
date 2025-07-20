@@ -2,13 +2,8 @@
 
 import * as React from "react";
 import {
-  Calculator,
-  Calendar,
-  CreditCard,
-  Settings,
-  Smile,
-  User,
   Search,
+  TrendingUp
 } from "lucide-react";
 
 import {
@@ -18,8 +13,7 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-  CommandSeparator,
-  CommandShortcut,
+  CommandSeparator
 } from "../components/ui/command"; // Adjust the path if needed
 
 export function SearchButton() {
@@ -58,38 +52,51 @@ export function SearchButton() {
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
 
-          <CommandGroup heading="Suggestions">
+          <CommandGroup heading="Popular on CodeLearn">
             <CommandItem>
-              <Calendar className="mr-2 h-4 w-4" />
-              <span>Calendar</span>
+              <Search className="mr-2 h-4 w-4" />
+              <span>agetic ai</span>
             </CommandItem>
             <CommandItem>
-              <Smile className="mr-2 h-4 w-4" />
-              <span>Search Emoji</span>
+              <Search className="mr-2 h-4 w-4" />
+              <span>n8n</span>
             </CommandItem>
             <CommandItem>
-              <Calculator className="mr-2 h-4 w-4" />
-              <span>Calculator</span>
+              <Search className="mr-2 h-4 w-4" />
+              <span>pmp</span>
+            </CommandItem>
+            <CommandItem>
+              <Search className="mr-2 h-4 w-4" />
+              <span>aws</span>
+            </CommandItem>
+            <CommandItem>
+              <Search className="mr-2 h-4 w-4" />
+              <span>playwright</span>
             </CommandItem>
           </CommandGroup>
 
           <CommandSeparator />
 
-          <CommandGroup heading="Settings">
+          <CommandGroup heading="Trending Searches">
             <CommandItem>
-              <User className="mr-2 h-4 w-4" />
-              <span>Profile</span>
-              <CommandShortcut>⌘P</CommandShortcut>
+              <TrendingUp className="mr-2 h-4 w-4" />
+              <span>satyam malviya</span>
             </CommandItem>
             <CommandItem>
-              <CreditCard className="mr-2 h-4 w-4" />
-              <span>Billing</span>
-              <CommandShortcut>⌘B</CommandShortcut>
+              <TrendingUp className="mr-2 h-4 w-4" />
+              <span>lovable</span>
             </CommandItem>
             <CommandItem>
-              <Settings className="mr-2 h-4 w-4" />
-              <span>Settings</span>
-              <CommandShortcut>⌘S</CommandShortcut>
+              <TrendingUp className="mr-2 h-4 w-4" />
+              <span>playwright automation</span>
+            </CommandItem>
+            <CommandItem>
+              <TrendingUp className="mr-2 h-4 w-4" />
+              <span>iim engineering</span>
+            </CommandItem>
+            <CommandItem>
+              <TrendingUp className="mr-2 h-4 w-4" />
+              <span>brad traversy</span>
             </CommandItem>
           </CommandGroup>
         </CommandList>
